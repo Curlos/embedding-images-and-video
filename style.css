@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(29, 29, 29);
+  margin: 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(43, 43, 43);
+  padding: 10px;
+}
+
+.inputControl {
+  width: 40%;
+}
+
+
+.inputControl input {
+  background-color: black;
+  border: none;
+  padding: 10px;
+  width: 60%;
+  margin: 0;
+}
+
+.inputControl .fa-search {
+  margin: 0;
+  padding: 9px 15px;
+  background-color: rgb(61, 61, 61);
+}
+
+.inputControl .fa-microphone {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgb(29, 29, 29);;
+}
+
+.signInButton {
+  color: rgb(57, 132, 245);
+  border: 2px solid rgb(57, 132, 245);
+  border-radius: 3px;
+  padding: 10px;
+}
